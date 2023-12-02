@@ -1,0 +1,161 @@
+*body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+.container{
+    
+    /* border: 5px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.height{
+    /* height: 49%; */
+    width: 80%;
+    /* border: 3px solid #2910e1; */
+    display: flex;
+    justify-content: center;
+    
+
+}
+#l{
+    height: 80%;
+    width: 80%;
+}
+#image{
+    display: flex;
+    justify-content: center;
+}
+
+.contant1{
+    text-align: start;
+}
+.left-content{
+    width: 40%;
+    /* height: 100%; */
+    /* border: 1px solid red; */
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 10PX;
+
+    
+}
+.right-content{
+    /* border: 1px solid red; */
+    /* height: 500px;  */
+    width: 60%;
+    /* height: 100%; */
+    padding: 15px;
+    background-color: #3d3e42;
+    border-radius: 10PX;
+}
+/* @media  (min-width:600px) {
+    .left-content,.right-content {
+       width: 100%;
+    }
+} */
+
+.reachme{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+        
+}
+.contant1{
+    padding-left: 50px;
+}
+.profile-paragraph{
+    display: flex;
+}
+
+img{
+    padding: 20px;
+    width: 250px; 
+    /* height: 70px; */
+    display: flex;
+    justify-content: center;
+}
+a{
+    color:rgb(73, 216, 73);
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(17, 19, 19);
+    border-radius: 3px;
+}
+
+.year{
+    /* border: 1px solid red; */
+    width: 25%;
+    /* height: 200px; */
+}
+.qualification{
+    /* border: 1px solid red; */
+    width: 25%;
+}
+.university{
+    /* border: 1px solid red; */
+    width: 50%;
+}
+.qualification>h5{
+    line-height: 10px;
+}
+/* .right-content */
+
+.lines{
+    
+    display: flex;
+    align-items: center;
+}
+
+.buttom-div{
+    display: flex;
+}
+.skills{
+    width: 50%;
+}
+.para{
+    color: white;
+    padding: 10px;
+}
+h4, .highlight{
+    color: #b0e5c9;
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+}
+.left-div{
+    padding: 8px;
+    width: 40%;
+}
+.right-div{
+    padding: 8px;
+    width: 60%;
+}
+#white{
+    color: white;
+}
+@media(max-width: 567px){
+    .height,.left-content,.right-content{
+        display: block;
+        width: 100%;
+        
+    }
+}
+.social-media a{
+    padding: 3px;
+    text-align: right;
+    
+
+}
